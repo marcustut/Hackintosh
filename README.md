@@ -1,6 +1,7 @@
 # Hackintosh
 This is a repo where I store my EFI and steps to get my Ryzen Hackintosh working properly.
 
+
 ## Hardware Used
 Processor: AMD Ryzen 5 2600  
 Mainboard: AsRock B450M Steel Legend  
@@ -8,9 +9,11 @@ Memory: Corsair Vengeance (2x8GB) DDR4-3200
 Storage: ADATA XPG SX8200 Pro (512GB) M.2 NVMe (OSX)  
 Graphics Card: Sapphire Radeon R9 370 4GB  
 
+
 ## Software Version
 ![Working Proof](https://i.ibb.co/gmnrjrr/Screenshot-2020-10-20-at-12-55-36-AM.png)  
 MacOS Catalina 10.15.7 (Build 19H2)
+
 
 ## Reference Links
 ### GPU Spoofing
@@ -26,6 +29,16 @@ MacOS Catalina 10.15.7 (Build 19H2)
 [Gathering Required Files](https://dortania.github.io/OpenCore-Install-Guide/ktext.html)  
 [Dumping DSDT](https://dortania.github.io/Getting-Started-With-ACPI/Manual/dump.html#from-windows)  
 [Modifying config.plist](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#starting-point)  
+
+## Tools Needed
+[Hackintool - Injecting Kexts](https://github.com/headkaze/Hackintool)  
+[MaciASL - ACPI Editing IDE for macOS](https://github.com/acidanthera/MaciASL)  
+[ProperTree - Edit .plist](https://github.com/corpnewt/ProperTree)  
+[GenSMBIOS - Generate SMBIOS](https://github.com/corpnewt/GenSMBIOS)  
+[SSDTTime - Dump DSDT & Apply General Patch](https://github.com/corpnewt/SSDTTime)  
+[MountEFI - Mount OS EFI Partition](https://github.com/corpnewt/MountEFI)  
+[gibMacOS - Download and Create Bootable OC USB](https://github.com/corpnewt/gibMacOS)  
+
 
 ## Steps
 1. Prepare the USB
