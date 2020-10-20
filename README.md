@@ -83,3 +83,6 @@ Scope (\_SB.PCI0.PEG0.PEGP).
 - Modify each *Info.plist*, replace **0x68191002** with **0x68111002** 
 - Patch kexts with Hackintool 👉🏼 [Inject Kexts with Hackintool](https://www.tonymacx86.com/threads/guide-installing-3rd-party-kexts-el-capitan-sierra-high-sierra-mojave-catalina.268964/)
 - Re-engage CSR Proctection with `csrutil enable` from Recovery Mode
+
+6. Fix Adobe Crashes on AMD
+- Follow instructions here 👉🏼 [Adobe Crash Fix XLNC](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd)
